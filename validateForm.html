@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="./validateForm.js"></script>
+<link rel="stylesheet" href="validateForm.css" type="text/css">
+
+</head>
+<body>
+    <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
+        <div class="col col-12 col-lg-6 col-md-6 col-sm-6 col-xs-6">
+            <form action="action.php" method="post" name="loginform" onsubmit="return validateform()">
+            <table class="table table-bordered" id="table">
+                <tr><td colspan="2" align="center"><h4>Login Here</h4></td></tr>
+                <tr>
+                    <td style="color: white;">Name</td>
+                    <td><input type="text" class="form-control" id="name"></td>
+                </tr>
+                <tr>
+                    <td style="color: white;">Password</td>
+                    <td><input type="password" class="form-control" name="password"></td>
+                </tr>
+                <tr>
+                    <td style="color: white;">Address</td>
+                    <td><input type="text" class="form-control" name="address"></td>
+                </tr>
+                <tr>
+                    <td style="color: white;">Email</td>
+                    <td><input type="email" class="form-control" name="email"></td>
+
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><button class="btn btn-primary" type="submit">submit</button></td>
+                </tr>
+            </table>
+        </form>
+        </div>
+        <div class="col col-12 col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
+    </div>
+</div>
+    
+</body>
+</html>

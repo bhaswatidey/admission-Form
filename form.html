@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<link rel="stylesheet" href="form.css" type="text/css">
+</head>
+<body>
+    <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
+        <div class="col col-12 col-lg-6 col-md-6 col-sm-6 col-xs-6">
+            <form action="./validateForm.html" method="post">
+
+            <table class="table">
+                <tr>
+                
+                    <td colspan="2" align="center">
+                <h4>Admission Form</h4>
+            </td>
+                </tr>
+                <tr>
+                    <td>First Name</td>
+                    <td><input type="text" class="form-control" required></td>
+                </tr>
+                <tr>
+                    <td>Last Name</td>
+                    <td><input type="text" class="form-control" required></td>
+                </tr>
+                <tr>
+                    <td>Email address</td>
+                    <td><input type="email" class="form-control"></td>
+                </tr>
+                <tr>
+                    <td>Phone Number</td>
+                    <td><input type="number" class="form-control"></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" class="form-control"></td>
+                </tr>
+                <tr>
+                    <td>Confirm password</td>
+                    <td><input type="password" class="form-control"></td>
+                </tr>
+                <tr>
+                    <td>Date of Birth</td>
+                    <td><input type="date" class="form-control"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td><input type="radio" name="radiobutton" id="male">Male
+                        <input type="radio" name="radiobutton" id="female">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td><textarea cols="30" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    
+                    <td colspan="2" align="center"><button class="btn btn-primary" type="submit" style="border-radius: 25px; font-size: 20px;">Submit</button></td>
+                </tr>
+            </table>
+        </form>
+        </div>
+        <div class="col col-12 col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
+    </div>
+</div>
+    
+</body>
+</html>
